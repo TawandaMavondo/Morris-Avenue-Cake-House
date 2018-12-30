@@ -1,0 +1,111 @@
+@media (min-width:769px){
+    .clearfix:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .container{
+        width: 85%;
+    }
+    
+      .footer-content,.footer-text{
+          width: 50%;
+          vertical-align: text-top;
+      }
+      .footer-content{
+          padding-right: 1em;
+          float: left;
+      }
+      .footer-text{
+        padding-left: 1em;
+          float:right;
+      }
+      /* chef picture and paragraph second section */
+      /* Two colum layout */
+      
+      .chef-pic-container ,.bio-desc {
+        width: 50%;
+        vertical-align: text-top;
+      }
+      .chef-pic-container{
+          float: left;
+          padding-right: 1em;
+      }
+      .bio-desc{
+          float: right;
+          padding-left: 1em;
+          padding-top: 1em;
+      }
+      /* setting the parraleax effect on the background images   */
+      .background-section-1,.background-section-2{
+          /* This is making the website slower  */
+          background-attachment:fixed;
+      }
+      /* Enlarging section and backgrounds */
+      .background-section-1,.background-section-2{
+        height: 70vh;
+      }
+    
+      /* content enlargement  */
+      .bio-section{
+          margin: 3em 0;
+      }
+    .gallery-wrapper{
+          height: 100vh;
+      }
+      /* centre paragraph */
+      .bio-desc{
+          padding-top: 4em;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      /* Two clumn for the carousel and note */
+    
+      .card-img-top{
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+      }
+      #card-grup{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-gap: 1em;
+      }
+      
+ }
+
+ @media (min-width:1025px){
+    .chef-pic-container ,.bio-desc {
+        width: 50%;
+        vertical-align: text-top;
+      }
+      .chef-pic-container{
+          float: left;
+          padding-right: 1em;
+      }
+      .bio-desc{
+          float: right;
+          padding-left: 1em;
+          padding-top: 1em;
+      }
+    .bio-desc{
+        width: 45%;
+    }
+    .chef-pic-container{
+        width: 55%;
+    }
+    .chef-pic-container img{
+        width: 100%;
+        height: 30.25em;
+    }
+    
+ }
+
+
+
+
+
+
+ 
